@@ -1,0 +1,43 @@
+#!/bin/bash
+
+VOICE="Samantha"
+PITCH=0
+
+STRINGS=(
+    #'Oh, eine neue Karte! Verwende die Lautstärke Tasten um einen Ordner für die Karte auszuwählen. Drücke die Pause Taste um die Auswahl zu speichern.'
+    'Oh, a new card! Use the volume buttons to select a folder for the map. Press the pause button to save the selection.'
+    #'OK, ich habe die Karte mit dem Ordner verknüpft. Wähle nun mit den Lautstärke Tasten den Wiedergabemodus aus.'
+    'OK, I linked the card to the folder. Now use the volume buttons to select the playback mode.'
+    #'Hörspielmodus: Eine zufällige Datei aus dem Ordner wiedergeben'
+    'Radio play mode: Play a random file from the folder'
+    #'Albummodus: Den kompletten Ordner wiedergeben'
+    'Album mode: Play the entire folder'
+    #'Party Modus: Ordner zufällig wiedergeben.'
+    'Party Mode: Random play folder.'
+    #'Einzel Modus: Eine bestimmte Datei im Ordner wiedergeben.'
+    'Single mode: Play a specific file in the folder.'
+    #'Hörbuch Modus: Einen Ordner wiedergeben und den Fortschritt speichern.'
+    'Audiobook Mode: Play a folder and save the progress.'
+    #'Admin Funktionen.'
+    'Admin Function.'
+    #'OK, wähle nun bitte die Datei mit den Lautstärke Tasten aus.'
+    'OK, please select the file with the volume buttons.'
+    #'Soll ich vor einer Datei jeweils die Nummer ansagen? Du kannst jederzeit durch einen langen Druck auf die Pause Taste die aktuelle Nummer abfragen.'
+    'Should I announce the number for each file? You can always check the current number with a long press on the pause button.'
+    #'Nein, Nummer nicht ansagen.'
+    'No, do not announce the number.'
+    #'Ja, Nummer ansagen.'
+    'Yes, announce the number.'
+    #'OK. Ich habe die Karte konfiguriert.'
+    'OK. I configured the card.'
+    #'Oh weh! Das hat leider nicht geklappt!'
+    'Oh, no! Unfortunately that did not work!'
+    #'Bitte lege die zu löschende Karte auf! Zum Abbrechen einfach eine der Lautstärke Tasten drücken!'
+    'Please insert the card to be deleted! To cancel, simply press one of the volume buttons!'
+    #'OK, du kannst den Tag nun wieder neu konfigurieren.'
+    'OK, you can change the day again.'
+    #'OK, ich habe den Vorgang abgebrochen.'
+    'OK, I canceled the operation.'
+    #'Reset wurde durchgeführt!'
+    'Reset completed!'
+)
